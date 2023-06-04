@@ -79,7 +79,7 @@ sudo systemctl restart apache2
 | ------------- 
 | /var/www/html
 
-| Server Configuration
+| <ins>Server Configuration</ins>
 | -------------
 | /etc/apache2 
 | /etc/apache2/apache2.conf
@@ -87,7 +87,7 @@ sudo systemctl restart apache2
 | /etc/apache2/sites-available/
 | /etc/apache2/sites-enabled/
 
-| Server Logs
+| <ins>Server Logs</ins>
 | -------------
 | /var/log/apache2/access.log
 | /var/log/apache2/error.log
