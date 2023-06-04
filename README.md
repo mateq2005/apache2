@@ -75,11 +75,11 @@ sudo systemctl restart apache2
 
 ### Step 6 – Getting Familiar with Important Apache Files and Directories
 
-| _Content_       
+| __Content__       
 | ------------- 
 | /var/www/html
 
-| _Server Configuration_
+| __Server Configuration__
 | -------------
 | /etc/apache2 
 | /etc/apache2/apache2.conf
@@ -87,7 +87,7 @@ sudo systemctl restart apache2
 | /etc/apache2/sites-available/
 | /etc/apache2/sites-enabled/
 
-| _Server Logs_
+| __Server Logs__
 | -------------
 | /var/log/apache2/access.log
 | /var/log/apache2/error.log
