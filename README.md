@@ -73,16 +73,19 @@ sudo systemctl restart apache2
 
 **http://your_server_ip**
 
-Step 6 – Getting Familiar with Important Apache Files and Directories
-Content
+### Step 6 – Getting Familiar with Important Apache Files and Directories
+
+**Content**
 /var/www/html
-Server Configuration
+
+**Server Configuration**
 /etc/apache2
 /etc/apache2/apache2.conf
 /etc/apache2/ports.conf
 /etc/apache2/sites-available/
 /etc/apache2/sites-enabled/
-/Server Logs
+
+**Server Logs**
 /var/log/apache2/access.log
 /var/log/apache2/error.log
 
