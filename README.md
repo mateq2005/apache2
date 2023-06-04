@@ -22,8 +22,9 @@ sudo systemctl status apache2
 hostname -I
 ```
 
-http://your_server_ip
-Step 4 — Managing the Apache Process
+**http://your_server_ip**
+
+### Step 4 — Managing the Apache Process
 sudo systemctl stop apache2
 sudo systemctl start apache2
 sudo systemctl restart apache2
