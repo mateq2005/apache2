@@ -1,18 +1,26 @@
 # Apache2
-Apache2
-Step 1 — Installing Apache
+
+### Step 1 — Installing Apache
+
+```
 sudo apt update
 sudo apt install apache2
+```
 
-Step 2 — Adjusting the Firewall
+### Step 2 — Adjusting the Firewall
+
+```
 sudo ufw app list
 sudo ufw allow 'Apache'
 sudo ufw status
+```
 
-Step 3 — Checking your Web Server
+### Step 3 — Checking your Web Server
+
+```
 sudo systemctl status apache2
 hostname -I
-
+```
 
 http://your_server_ip
 Step 4 — Managing the Apache Process
