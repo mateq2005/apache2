@@ -25,20 +25,26 @@ hostname -I
 **http://your_server_ip**
 
 ### Step 4 — Managing the Apache Process
+
+```
 sudo systemctl stop apache2
 sudo systemctl start apache2
 sudo systemctl restart apache2
 sudo systemctl reload apache2
 sudo systemctl disable apache2
 sudo systemctl enable apache2
+```
 
-Step 5 — Setting Up Virtual Hosts
+###Step 5 — Setting Up Virtual Hosts
+
 Default page: /var/www/html
+
+```
 sudo mkdir /var/www/your_domain
 sudo chown -R $USER:$USER /var/www/your_domain
 sudo chmod -R 755 /var/www/your_domain
 sudo nano /var/www/your_domain/index.html
-
+```
 
 Default configuration: /etc/apache2/sites-available/000-default.conf
 sudo nano /etc/apache2/sites-available/your_domain.conf
