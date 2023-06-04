@@ -75,7 +75,7 @@ sudo systemctl restart apache2
 
 ### Step 6 – Getting Familiar with Important Apache Files and Directories
 
-| Content      
+| <ins>Content</ins>      
 | ------------- 
 | /var/www/html
 
