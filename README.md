@@ -75,8 +75,6 @@ sudo systemctl restart apache2
 
 ### Step 6 – Getting Familiar with Important Apache Files and Directories
 
-**Content**
-/var/www/html
 
 **Server Configuration**
 /etc/apache2
@@ -89,9 +87,19 @@ sudo systemctl restart apache2
 /var/log/apache2/access.log
 /var/log/apache2/error.log
 
-| First Header  |
-| ------------- |
-| Content Cell  |
-| Content Cell  |
+| Content       | 
+| ------------- | 
+| /var/www/html | 
+
+| First Header  | 
+| ------------- | 
+| Content Cell  | 
+| Content Cell  | 
+
+| First Header  | 
+| ------------- | 
+| Content Cell  | 
+| Content Cell  | 
+
 
 
