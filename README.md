@@ -46,10 +46,13 @@ sudo chmod -R 755 /var/www/your_domain
 sudo nano /var/www/your_domain/index.html
 ```
 
-Default configuration: /etc/apache2/sites-available/000-default.conf
+**Default configuration:** /etc/apache2/sites-available/000-default.conf
+
+```
 sudo nano /etc/apache2/sites-available/your_domain.conf
+```
 
-
+```
 <VirtualHost *:80>
     ServerAdmin webmaster@localhost
     ServerName your_domain
@@ -58,16 +61,18 @@ sudo nano /etc/apache2/sites-available/your_domain.conf
     ErrorLog ${APACHE_LOG_DIR}/error.log
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
-
-
+```
+```
 sudo a2ensite your_domain.conf
 sudo a2dissite 000-default.conf
+```
 
-
+```
 sudo systemctl restart apache2
+```
 
+**http://your_server_ip**
 
-http://your_server_ip 
 Step 6 – Getting Familiar with Important Apache Files and Directories
 Content
 /var/www/html
