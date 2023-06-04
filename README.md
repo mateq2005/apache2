@@ -35,9 +35,9 @@ sudo systemctl disable apache2
 sudo systemctl enable apache2
 ```
 
-###Step 5 — Setting Up Virtual Hosts
+### Step 5 — Setting Up Virtual Hosts
 
-Default page: /var/www/html
+**Default page:** /var/www/html
 
 ```
 sudo mkdir /var/www/your_domain
