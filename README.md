@@ -62,6 +62,12 @@ sudo nano /etc/apache2/sites-available/your_domain.conf
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
 ```
+
+ports.conf
+```
+Listen 80
+```
+
 ```
 sudo a2ensite your_domain.conf
 sudo a2dissite 000-default.conf
