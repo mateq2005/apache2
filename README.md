@@ -63,7 +63,10 @@ sudo nano /etc/apache2/sites-available/your_domain.conf
 </VirtualHost>
 ```
 
-ports.conf
+```
+nano /etc/apache2/ports.conf
+```
+
 ```
 Listen 80
 ```
