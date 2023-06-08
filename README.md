@@ -1,6 +1,6 @@
 # Apache2
 
-### Step 1 — Installing Apache
+### Installing Apache
 
 ```
 sudo apt-get update
@@ -13,7 +13,7 @@ systemctl enable apache2
 systemctl status apache2 
 ```
 
-### Step 2 — Setting Up Virtual Hosts
+### Setting Up Virtual Hosts
 
 **Default page:** /var/www/html
 
