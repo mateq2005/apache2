@@ -50,6 +50,15 @@ Listen 80
 ```
 
 ```
+/etc/apache2/envvars
+```
+
+```
+export APACHE_RUN_USER=www-data
+export APACHE_RUN_GROUP=www-data
+```
+
+```
 sudo a2ensite your_domain.conf
 sudo a2dissite 000-default.conf
 ```
