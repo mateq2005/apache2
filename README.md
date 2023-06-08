@@ -4,7 +4,7 @@
 
 ```
 sudo apt update
-sudo apt install apache2
+sudo apt-get install apache2 -y
 ```
 
 ### Step 2 — Adjusting the Firewall
