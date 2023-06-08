@@ -10,16 +10,8 @@ sudo apt-get install apache2 -y
 ```
 systemctl start isc-dhcp-server
 systemctl enable isc-dhcp-server
+systemctl status isc-dhcp-server
 ```
-
-### Step 2 — Checking your Web Server
-
-```
-sudo systemctl status apache2
-hostname -I
-```
-
-**http://your_server_ip**
 
 ### Step 3 — Setting Up Virtual Hosts
 
