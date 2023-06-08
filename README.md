@@ -8,9 +8,9 @@ sudo apt-get install apache2 -y
 ```
 
 ```
-systemctl start isc-dhcp-server
-systemctl enable isc-dhcp-server
-systemctl status isc-dhcp-server
+systemctl start apache2 
+systemctl enable apache2 
+systemctl status apache2 
 ```
 
 ### Step 3 — Setting Up Virtual Hosts
