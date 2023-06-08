@@ -13,7 +13,7 @@ systemctl enable apache2
 systemctl status apache2 
 ```
 
-### Step 3 — Setting Up Virtual Hosts
+### Step 2 — Setting Up Virtual Hosts
 
 **Default page:** /var/www/html
 
