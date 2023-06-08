@@ -7,15 +7,7 @@ sudo apt update
 sudo apt-get install apache2 -y
 ```
 
-### Step 2 — Adjusting the Firewall
-
-```
-sudo ufw app list
-sudo ufw allow 'Apache'
-sudo ufw status
-```
-
-### Step 3 — Checking your Web Server
+### Step 2 — Checking your Web Server
 
 ```
 sudo systemctl status apache2
@@ -24,7 +16,7 @@ hostname -I
 
 **http://your_server_ip**
 
-### Step 4 — Managing the Apache Process
+### Step 3 — Managing the Apache Process
 
 ```
 sudo systemctl stop apache2
@@ -35,7 +27,7 @@ sudo systemctl disable apache2
 sudo systemctl enable apache2
 ```
 
-### Step 5 — Setting Up Virtual Hosts
+### Step 4 — Setting Up Virtual Hosts
 
 **Default page:** /var/www/html
 
@@ -82,7 +74,7 @@ sudo systemctl restart apache2
 
 **http://your_server_ip**
 
-### Step 6 – Getting Familiar with Important Apache Files and Directories
+### Step 5 – Getting Familiar with Important Apache Files and Directories
 
 | <ins>Content</ins>      
 | ------------- 
