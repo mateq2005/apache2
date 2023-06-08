@@ -41,6 +41,7 @@ sudo nano /etc/apache2/sites-available/your_domain.conf
 </VirtualHost>
 ```
 
+### Setting Up Ports
 ```
 nano /etc/apache2/ports.conf
 ```
@@ -49,6 +50,7 @@ nano /etc/apache2/ports.conf
 Listen 80
 ```
 
+### Defualt Apache User & Group
 ```
 /etc/apache2/envvars
 ```
