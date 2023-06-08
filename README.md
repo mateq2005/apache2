@@ -7,6 +7,11 @@ sudo apt-get update
 sudo apt-get install apache2 -y
 ```
 
+```
+systemctl start isc-dhcp-server
+systemctl enable isc-dhcp-server
+```
+
 ### Step 2 — Checking your Web Server
 
 ```
@@ -16,18 +21,7 @@ hostname -I
 
 **http://your_server_ip**
 
-### Step 3 — Managing the Apache Process
-
-```
-sudo systemctl stop apache2
-sudo systemctl start apache2
-sudo systemctl restart apache2
-sudo systemctl reload apache2
-sudo systemctl disable apache2
-sudo systemctl enable apache2
-```
-
-### Step 4 — Setting Up Virtual Hosts
+### Step 3 — Setting Up Virtual Hosts
 
 **Default page:** /var/www/html
 
@@ -74,7 +68,7 @@ sudo systemctl restart apache2
 
 **http://your_server_ip**
 
-### Step 5 – Getting Familiar with Important Apache Files and Directories
+### Step 4 – Getting Familiar with Important Apache Files and Directories
 
 | <ins>Content</ins>      
 | ------------- 
