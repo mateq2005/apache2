@@ -3,7 +3,7 @@
 ### Step 1 — Installing Apache
 
 ```
-sudo apt update
+sudo apt-get update
 sudo apt-get install apache2 -y
 ```
 
